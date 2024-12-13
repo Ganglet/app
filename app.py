@@ -12,7 +12,7 @@ def Welcome():
 def index():
     return "This is the index page"
 
-@app.route("test")
+@app.route("/test")
 def test():
     return "This is a test page"
 
