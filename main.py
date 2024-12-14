@@ -10,6 +10,7 @@ def Welcome():
 
 @app.route("/index")
 def index():
+    #render_template is used to connect the python file to html
     return render_template("index.html")
 
 @app.route("/test")
